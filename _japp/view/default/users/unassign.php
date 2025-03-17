@@ -8,6 +8,7 @@ tr {
 }
 </style>
 <form method="post">
+{% csrf_token %}
 <table border='1' cellspacing='0' cellpadding='1'
 	style="text-align: center;" width="100%">
 	<thead>
